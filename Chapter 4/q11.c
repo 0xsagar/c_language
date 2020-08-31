@@ -13,7 +13,7 @@ int main()
             break;
         }
     }
-    if (prime == 0 && n != 2)
+    if (prime == 0)
     {
         printf("It is a not a prime number\n");
     }
