@@ -1,0 +1,10 @@
+#include<stdio.h>
+ 
+int main(void)
+{
+	printf("\nSomeday you will cry for me\n");
+	printf("Like I cried for you\n");
+	printf("Someday you'll miss me\n");
+	printf("Like I missed you\n\n");
+	return 0;
+}
