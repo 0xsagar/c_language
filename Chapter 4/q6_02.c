@@ -1,5 +1,5 @@
 
-/* Sum of first n integers */
+/* Sum of first n integers using for loop */
 
 #include <stdio.h>
 
