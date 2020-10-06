@@ -3,13 +3,13 @@
 int main()
 {
     int factorial = 1, i = 0, n = 1;
-    printf("Enter the number you want factorial of: \n");
-    scanf("%d", &n);
-    for (i = 1; i <= n; i++)
+    printf("\nEnter the number you want factorial of: \n\n"); //enter number 'n'
+    scanf("%d", &n);                                          //read 'n' and add it to the program
+    for (i = 1; i <= n; i++)                                  //from 'i=0' to 'i <=n' increasing '1' at a time
     {
-        factorial *= i;
+        factorial *= i; //factorial = factorial * i
     }
-    printf("The factorial of %d is %d", n, factorial);
+    printf("\nThe factorial of %d is %d\n\n", n, factorial); //print the factorial of 'n'
 
     return 0;
 }
