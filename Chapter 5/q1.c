@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//average of three numbers using functions
 float average(int a, int b, int c);
 
 int main()
