@@ -7,7 +7,7 @@ int main()
     float m;
     printf("Enter the value of mass in kgs\n");
     scanf("%f", &m);
-    printf("The Force in Newton is %f\n", force(m));
+    printf("The Force in Newton is %.2f\n", force(m));
     return 0;
 }
 
