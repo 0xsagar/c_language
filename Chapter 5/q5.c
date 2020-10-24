@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main()
+// see the order of the printed numbers
+
 {
     int a = 2;
     printf("%d %d %d", a, ++a, a++);
