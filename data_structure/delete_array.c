@@ -5,7 +5,7 @@ int main()
     int array[100], position, n, c;
     printf("Enter the number of elements in array\n");
     scanf("%d", &n);
-    printf("Enter %d elements in array", n);
+    printf("Enter %d elements in array\n", n);
     for (c = 0; c < n; c++)
     {
         scanf("%d", &array[c]);
