@@ -4,7 +4,7 @@ int fibonacci(int n)
 {
     int a = 0, b = 1, nextTerm;
     printf("\nPrinting Fabonacci Series\n");
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i <= n - 1; i++)
     {
         printf("%d\t", a);
         nextTerm = a + b;
@@ -15,8 +15,8 @@ int fibonacci(int n)
 
 int main()
 {
-    int a;
+    int n;
     printf("How many terms of Fabonacci Series you want to print?\n");
-    scanf("%d", &a);
-    fibonacci(a);
+    scanf("%d", &n);
+    fibonacci(n);
 }
