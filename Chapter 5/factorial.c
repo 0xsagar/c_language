@@ -13,7 +13,6 @@ int main()
 
 int factorial(int x)
 {
-    printf("Calling factorial(%d)\n", x);
     if (x == 0 || x == 1)
     {
         return 1;
